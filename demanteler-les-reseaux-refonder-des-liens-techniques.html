@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Challenge</title>
+    <!-- Latest compiled and minified CSS -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/style.css"> 
+<link rel="stylesheet" href="css/fontawesome.min.css"> 
+
+<link rel="stylesheet" href="fonts/stylesheet.css"> 
+    <!-- https://lechangeur.org/ -->
+  </head>
+<body>
+  <style>
+      img{
+          width: 100%;
+          height: 100%;
+      }
+      a{
+          text-decoration: none;
+      }
+      h2 {
+    color: #3F3F3F;
+    font-size: 40px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "LMDLD", sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+   
+    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #fff200;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+  <div class="container-fluid">
+  <div class="row" style="background: #fff200;">
+    <div class="col-lg-2 col-sm-2 col-md-2">
+      <img src="img/log_main.svg" class="img-fluid"  alt="">
+    </div> 
+    <div class="col-lg-9 col-sm-2 col-md-2 d-none d-lg-block">
+<div class="nav_bar_hidden">
+
+
+      <h6>EN CE MOMENT ET À VENIR</h6>
+      
+      <span>
+        <a href="https://lechangeur.org/programmation/spectacles/pain-maudit" title="PAIN MAUDIT">
+          PAIN MAUDIT				</a>
+      </span>
+      <span>
+      <a href="https://lechangeur.org/programmation/spectacles/demanteler-les-reseaux-refonder-des-liens-techniques" title="Démanteler les réseaux, refonder des liens techniques">
+        Démanteler les réseaux, refonder des liens techniques					</a>
+    </span>
+    <span>
+    <a href="https://lechangeur.org/programmation/spectacles/kap-o-mond" title="KAP O MOND !">
+      KAP O MOND !				</a>
+  </span>
+      
+    </div> 
+  </div>
+  <div class="col-lg-1 col-sm-2 col-md-2  mt-3 ">
+    
+    <div id="mySidenav" class="sidenav">
+      <span  class="closebtn" onclick="closeNav()">&times;</span>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="menu_btn" bis_skin_checked="1">
+      <span class="span"></span>
+      <span class="span"></span>
+      <span class="span"></span>
+      <span class="menu_text">Menu</span>
+    </div>
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">menu</span> -->
+    <!-- <span class="menu_text">Menu</span> -->
+    
+ 
+  </div>
+</div>
+</div>
+</div>
+</div> 
+
+
+
+<!-- MENU ITEMS -->
+
+<div class="breadcrumb">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="billetterie-et-pass-illimite.html">Billetterie</a></li>
+        <li><a href="index.html">Programmation</a></li>
+        <li><a href="pain-maudit.html">PAIN MAUDIT</a></li>
+    </ul>
+</div>
+
+<div class="container " style="    padding-bottom: 11%;">
+    <div class="row">
+        <div class="col-xs-12 col-sm-3" style="margin-right: 3%;">
+            <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <img src="img/Démanteler les réseaux, refonder des liens techniques.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-12  mt-4">
+                    <div style="background-color: yellow;">
+                        <center>
+                            <a href="" style="color: #3F3F3F;">RÉSERVER UN BILLET</a>
+                        </center>
+                    </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 mt-4" >
+                        
+                            <center>
+                                <a href="" style="color: #3F3F3F;border-bottom: yellow 3px solid;">CONSULTER LE DOSSIER</a>
+                            </center>
+                
+                        </div>
+
+             </div>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+            <div class="row">
+               <h4 class="col-lg-12 col-xs-12 col-sm-12">Conférence | Rencontre</h4>
+               <h2 class="col-lg-12 col-xs-12 col-sm-12" style="    font-size: 52px;">DÉMANTELER LES RÉSEAUX, REFONDER DES LIENS TECHNIQUES</h2>
+               <h4 class="compagnie_h4 col-xs-12 col-sm-10 col-md-8">Les Communaux</h4>
+                <h3 class="day_item">Jeudi 13 Janvier 2022</h3>
+                <br>
+                <p class="hours_item"><span class="jaune">19h00</span> <br>
+                 <span class="clair">relâche dimanche 9</span></p>
+                </p>
+             
+                 
+                <div class="col-lg-12 col-md-12 text_item">
+                  <p><span class="clair">Avec</span> Elise Dabrowski<br></p>
+                </div>
+                <div class="col-lg-12 col-md-12 mt-4">
+                    <p>L’infrastructure électrique est-elle un objet technique reconfigurable ? Si changer de société revient à changer d’infrastructure, alors quel serait le réseau idéal ?</p>
+                    <p>Au-delà de la production énergétique, questionner la distribution et la transmission de l’électricité peut préfigurer de profondes restructurations. Éclairer la matérialité du grand système électrique, c’est tenter de recomposer une intelligibilité technique. Pourrait-on réorienter quelques portions de la matrice infrastructurelle, recycler quelques segments et câbles ? Quelles seraient les formes, échelles et structures d’un réseau électrique radicalement autre et avec quels principes d’interconnexion pourrait-il fonctionner ? L’enjeu : réinventer des liens techniques sans forcer ou arraisonner le vivant ; repenser les structures et la gouvernementalité des réseaux pour bâtir d’autres communs techniques.</p>
+                    <p>Cette rencontre sera introduite par Fanny Lopez et poursuivie avec les récits de Jean Baptiste Vidalou et deux membres de La Chose.</p>
+                    <p>Fanny Lopez est historienne de l’architecture et des techniques, maîtresse de conférences à l’ENSA Paris-Est à l’Université Gustave Eiffel et chercheuse au LIAT, ENSA Paris-Malaquais. Ses activités de recherche et d’enseignement portent sur l’impact spatial, territorial et environnemental des infrastructures énergétiques et numériques, ainsi que sur les imaginaires techniques associés à leur transformation. Parmi ces ouvrages : <em>Le rêve d’une déconnexion. De la maison autonome à la cité auto-énergétique</em> (Ed. La Villette 2014, traduit chez Manchester University Press 2021) ; <em>L’ordre électrique, infrastructures énergétiques et territoires</em> (Ed.Métis Presses 2019) pour lequel elle a obtenu le prix de l’Association académique de recherche, d’histoire et de sociologie de l’énergie 2021.</p>
+                    <p>Jean Baptiste Vidalou est tailleur de pierres et philosophe, auteur de <em>Être forets. Habiter des territoires en lutte</em> (Editions la Découverte/Zones, 2017).</p>
+                    <p>A propos de La Chose (Coordination Hétéroclite pour l’Obturation des Systèmes Electriques), on peut lire ici leur manifeste : <a href="https://lachose.noblogs.org/"><em>Leur écologie est un désastre, déconnectons-la.</em></a></p>
+      <hr>
+
+  
+    					</div>
+              <div class="col-lg-12 col-md-12 text_item" style="padding-bottom:4%;border-bottom: yellow 4px solid;">
+                <p><span class="clair">Les initiatives des Communaux sont soutenues et accueillies par différents lieux de Paris et sa banlieue :</span> Le DOC ! à Paris, Les Laboratoires d’Aubervilliers, L’Échangeur à Bagnolet, le 6B à Saint-Denis, La Station - Gare des Mines à Paris, Le Fender à Ivry-sur-Seine, La Trame à Saint-Denis…</p>
+
+
+
+              </div>
+              <div class="col-lg-12 col-md-12 text_item">
+                <h3>DÉCOUVRIR LES AUTRES RENCONTRES DES COMMUNAUX</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 text_item">
+               <img src="img/LES COMMUNAUX.jpg" class="img-fluid" alt="">
+              </div>
+
+
+                </div>
+             </div>
+        </div>
+
+
+</div>
+
+
+<div class="container">
+<!-- <ul style="display: flex;"> -->
+<div class="row">
+<div class="col-lg-6 col-md-6">
+    <a href="pain-maudit.html">
+        <div class="" bis_skin_checked="1">
+          	<span>← </span>  PAIN MAUDIT     	  	  </div>
+
+      </a>
+
+
+
+</div>
+<div class="col-lg-6 col-md-6" style="    text-align: end;">
+    <a href="https://lechangeur.org/programmation/spectacles/demanteler-les-reseaux-refonder-des-liens-techniques">
+        <div class="" bis_skin_checked="1">
+          
+			  			KAP O MOND !			  	<span>→</span>	  </div>
+
+      </a>
+
+
+
+</div>
+</div>
+
+</div> 
+</div>
+
+<!--    END ITEMS                 -->
+<!-- START FOOTER  -->
+
+<div class="container-fluid main_container d-flex">
+<div class="row flex-fill middle-xs footer" style="width:100%" bis_skin_checked="1">
+  <div class="address col-xs-12 col-sm-6 " bis_skin_checked="1">
+    <p><span class="bebas">THÉÂTRE L’ÉCHANGEUR - CIE PUBLIC CHÉRI</span><br>
+59 avenue Général du Gaulle - 93170 BAGNOLET<br>
+Administration 01 43 62 06 92 | info@lechangeur.org<br>
+Réservations 01 43 62 71 20 | reservation@lechangeur.org</p>      <div class="mentions-legales" bis_skin_checked="1">
+              <a href="https://lechangeur.org/mentions-legales" title="Mentions légales">
+       <span style="font-size: 12px;">Mentions légales </span>        </a>
+    </div>
+  </div>
+  <div class="socialnetworks col-xs-12 col-sm-6 " bis_skin_checked="1">
+    <ul class="float-lg-end">
+                <li>
+          <a href="https://www.facebook.com/theatreechangeur/" title="Facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+
+                <li>
+          <a href="https://www.instagram.com/theatrelechangeur/" title="Instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+
+            </ul>
+  </div>
+</div>
+
+</div>
+
+
+<!--    END  Fotter              -->
+
+
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  // function openNav() {
+  //   $('.span').hide();
+  //       document.getElementById("mySidenav").style.width = "250px";
+  //     }
+      
+      function closeNav() {
+        $('.span').show();
+        document.getElementById("mySidenav").style.width = "0";
+      }
+  const menuBtn = document.querySelector('.menu_btn');
+        let menuOpen = false;
+        menuBtn.addEventListener('click', () => {
+        
+        
+            if(!menuOpen) {
+           
+          $('.span').hide();
+          document.getElementById("mySidenav").style.width = "250px";
+               // menuBtn.classList.add('mySidenav');
+                menuOpen = true;
+            } else {
+            //  
+              //
+                menuBtn.classList.remove('mySidenav');
+                document.getElementById("mySidenav").style.width = "0";
+                $('.span').show();
+                menuOpen = false;
+            }
+         // $('.menu-btn_burger:first').hide();
+
+        });
+</script>
+</body>
+</html>
